@@ -1,2 +1,2 @@
-# BetterBags_DarkmoonFaire
-Filters for Darkmoon Faire items in BetterBags
+# BetterBags - Darkmoon Faire
+Filters for Darkmoon Faire items in [BetterBags](https://www.curseforge.com/wow/addons/better-bags).
