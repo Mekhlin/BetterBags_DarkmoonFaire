@@ -1,4 +1,4 @@
-## Interface: 100207
+## Interface: 100207,110000
 ## Title: BetterBags - |cffa335eeDarkmoon Faire|r
 ## Author: Mekhlin
 ## Version: 1.0.0

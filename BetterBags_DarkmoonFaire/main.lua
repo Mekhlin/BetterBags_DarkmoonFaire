@@ -1,6 +1,6 @@
 local addon = LibStub("AceAddon-3.0"):GetAddon("BetterBags")
 local categories = addon:GetModule("Categories")
-local categoryName = "Darkmoon Faire"
+local categoryName = "|cffa335eeDarkmoon|r Faire"
 
 local darkmoonItems = {
     -- Artifacts
