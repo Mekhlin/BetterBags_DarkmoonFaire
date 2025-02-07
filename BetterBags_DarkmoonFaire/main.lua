@@ -1,9 +1,15 @@
 local addon = LibStub("AceAddon-3.0"):GetAddon("BetterBags")
 local categories = addon:GetModule("Categories")
-local categoryName = "|cffa335eeDarkmoon|r Faire"
+local categoryName = CALENDAR_FILTER_DARKMOON
 
 local darkmoonItems = {
-    -- Artifacts
+    71634, -- Darkmoon Adventurer's Guide
+    71083, -- Darkmoon Game Token
+    81055, -- Darkmoon Ride Ticket
+    93724, -- Darkmoon Game Prize
+    515,   -- Darkmoon Prize Ticket
+
+    -- Artifacts (Quests)
     71953, -- Fallen Adventurer's Journal
     71951, -- Banner of the Fallen
     71952, -- Captured Insignia
@@ -12,7 +18,7 @@ local darkmoonItems = {
     71637, -- Mysterious Grimoire
     71638, -- Ornate Weapon
     71716, -- Soothsayer's Runes
-    71715,  -- A Treatise on Strategy
+    71715, -- A Treatise on Strategy
 
     -- Cosmetics
     116052, -- Nobleman's Coat
@@ -29,7 +35,7 @@ categories:RegisterCategoryFunction("DarkmoonFaireCategoryFilter", function(data
         end
     end
 
-    if data.itemInfo.itemName == nil then
+    if not data.itemInfo.itemName then
         return nil
     end
 
